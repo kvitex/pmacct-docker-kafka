@@ -18,7 +18,7 @@ RUN cmake .. && make -j 4 && make install
 
 WORKDIR /opt/build
 
-RUN git clone -b 1.7.4p1 https://github.com/pmacct/pmacct.git pmacct
+RUN git clone -b 1.7.5 https://github.com/pmacct/pmacct.git pmacct
 
 WORKDIR /opt/build/pmacct
 
